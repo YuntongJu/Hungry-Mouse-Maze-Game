@@ -5,7 +5,7 @@ Collect Both the Golden and Silver Keys.
 Exit the gate in 3 minutes.
 
 ## Description
-🪄 Boom! You have just become a mouse! 🐭 And you are hungry for cheese! 
+🪄 Boom! You have just become a mouse! 🐭 
 
 🧀 Collect cheese and exit the maze within 3 minutes! Be sure to collect at least 25 pieces of cheese, and grab both the silver key and the golden key. 
 
