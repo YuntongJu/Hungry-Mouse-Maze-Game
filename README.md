@@ -5,11 +5,11 @@ Collect Both the Golden and Silver Keys.
 Exit the gate in 3 minutes.
 
 ## Description
-Hungry Mouse is an interactive maze game where the player will play as a hungry mouse, navigating the map and collects cheese. 
+Boom! You have now become a mouse! And you are hungry for cheese! Collect cheese and exit the maze within 3 minutes! Be sure to collect at least 25 pieces of cheese, and collect the silver key and the golden key. Cheese Count is shown at the top left corner of the screen. Good luck!
 
 ![Demo GIF](demo/opening.gif)
 
-Boom! You have now become a mouse! And you are hungry for cheese! Collect cheese and exit the maze within 3 minutes! Be sure to collect at least 25 pieces of cheese, and collect the silver key and the golden key. Cheese Count is shown at the top left corner of the screen. Good luck!
+
 
 
 ## Controls
