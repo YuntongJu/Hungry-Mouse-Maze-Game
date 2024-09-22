@@ -31,7 +31,7 @@ Cheese Count is shown at the top left corner of the screen.
 ### Step 1: Download:
 Download Hungry Mouse, including all the sub-directories. Unzip all the files, if the downloaded file is zipped.
 
-## Step 2: Run and modify your project:
+### Step 2: Run and modify your project:
 1. Go to the folder where you downloaded Hungry Mouse. You should see the file `index.html` in your folder. Double-click and open it. In most cases, you can only see a blank page with title Tiny Graphics. 
 
 2. Open the file `host` - `host.bat` if you're Windows, `host.command` if you're Mac. On Windows, you can just double click the file open.
