@@ -1,0 +1,44 @@
+<!-- Graphics Example Code.  
+    index.html - The web page document containing the canvas (drawing surface).  It launches your JavaScript files.
+-->
+<!DOCTYPE html>
+<html lang="En">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="assets/fav.ico" rel="icon">
+    <title>Tiny Graphics</title>
+    <style>
+        .timer {
+            position: absolute;
+            right: 50%;
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body style="background: White">
+    <p id="timer" class="timer"></p>
+    <!-- Begin typing your web page here. -->
+    <!-- The following code embeds a WebGL canvas panel, loads certain scene(s), and displays panel(s) of their controls.-->
+    <div class="canvas-widget" id="main-canvas"></div>
+    <!-- <embed name="GoodEnough" src="./assets/music/music.mp3" loop="true" hidden="true" autostart="true"> -->
+    <audio id="backgroundMusic" src="./assets/music/music.mp3" loop autoplay></audio>
+    <audio id="moveAudio" src="./assets/music/move.wav"></audio>
+    <audio id="collectAudio" src="./assets/music/collect.wav"></audio>
+    <audio id="collectKeys" src="./assets/music/collectKeys.wav"></audio>
+    <script type=module>
+            // ********************* THE ENTRY POINT OF YOUR WHOLE PROGRAM STARTS HERE *********************
+            // Indicate which element on the page you want the Canvas_Widget to replace with a 3D WebGL area:
+            const element_to_replace = document.querySelector("#main-canvas");
+            import {Main_Scene, Additional_Scenes, Canvas_Widget} from './main-scene.js';
+            // Import the file that defines a scene.
+            const scenes = [Main_Scene, ...Additional_Scenes].map(scene => new scene());
+            // This line creates your scene.
+            new Canvas_Widget(element_to_replace, scenes);
+    </script>
+</body>
+
+</html>
