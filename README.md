@@ -15,7 +15,7 @@ Cheese Count is shown at the top left corner of the screen.
 
 ![Demo GIF](demo/opening.gif)
 
-
+![Demo GIF](demo/key.gif)
 
 
 ## Controls
